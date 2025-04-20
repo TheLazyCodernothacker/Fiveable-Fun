@@ -3,7 +3,7 @@ run = setInterval(() => {
     if (
         (
             document.documentElement.textContent || document.documentElement.innerText
-        ).indexOf('the') > -1
+        ).indexOf('Unlock everything') > -1
     ) {
         clearInterval(run);
 
