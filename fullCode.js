@@ -156,4 +156,4 @@ run = setInterval(() => {
         document.body.appendChild(dialog);
         dialog.showModal();
     }
-}, 50);
+}, 200);
